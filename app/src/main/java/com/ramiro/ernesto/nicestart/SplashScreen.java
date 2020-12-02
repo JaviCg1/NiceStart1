@@ -45,7 +45,6 @@ public class SplashScreen extends Activity {
 
         //implements and starts animation
         Animation myanim = AnimationUtils.loadAnimation(this, R.anim.shake);
-
         mySubtitle.startAnimation(myanim);
         openApp(true);
 
