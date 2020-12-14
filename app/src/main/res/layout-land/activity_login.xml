@@ -3,9 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_red_dark">
+    android:background="#670024">
     <!--android:background="@drawable/background_fill"-->
 
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/perro" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -14,7 +20,8 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:src="@drawable/ic_tent" />
+        android:src="@drawable/ic_tent"
+        app:srcCompat="@drawable/ic_launcher33_foreground" />
 
     <!--<TextView-->
     <!--android:id="@+id/title"-->
@@ -96,11 +103,6 @@
         android:text="@string/signup_text"
         android:textColor="@android:color/white" />
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/perro" />
     <!--android:onClick="onClick"-->
     <!--android:clickable="true"-->
 
